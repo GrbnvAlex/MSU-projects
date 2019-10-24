@@ -1,0 +1,60 @@
+*************************
+1'000 lines:
+
+Bubble -> real 0m0.117s
+	  user 0m0.024s
+	  sys  0m0.000s
+
+Merge  -> real 0m0.74s
+	  user 0m0.004s
+	  sys  0m0.000s
+
+Tree   -> real 0m0.109s
+	  user 0m0.012s
+	  sys  0m0.000s
+*************************
+10'000 lines:
+
+Bubble -> real 0m13.156s
+	  user 0m9.304s
+	  sys  0m0.052s
+
+Merge  -> real 0m1.211s
+	  user 0m0.048s
+	  sys  0m0.040s
+
+Tree   -> real 0m1.332s
+	  user 0m0.076s
+	  sys  0m0.036s
+*************************
+100'000 lines:
+
+Bubble -> real 50m13.322s  
+	  user 37m38.788s
+	  sys  0m7.808s
+
+Merge  -> real 0m12.172s
+	  user 0m0.796s
+	  sys  0m0.252s
+
+Tree   -> real 0m14.748s
+	  user 0m2.692s
+	  sys  0m0.216s
+*************************
+1'000'000 lines:
+
+Bubble -> The computer couldn't execute the programm for 14 hours...
+	  TIME >= 14 hours
+
+Merge  -> real 2m19.080s
+	  user 0m10.608s
+	  sys  0m2.372s
+
+Tree   -> real 6m43.177s
+	  user 3m52.060s
+	  sys  0m4.820s
+*************************
+Conclusion: the results show that merge sort works much more effective
+with files consisting of more than 1000 lines. The difference between 
+bubble sort and merge sort in effectiveness for files with small amount 
+of strings is very low. Also the tree works almost as fast as merge_sort

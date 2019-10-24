@@ -1,0 +1,6 @@
+
+#define FTOK_FILE "file"  // used for ipc_key -don't delete it
+
+#define FTOK_PROJ 0
+
+ipc_key = ftok(FTOK_FILE, FTOK_PROJ);
