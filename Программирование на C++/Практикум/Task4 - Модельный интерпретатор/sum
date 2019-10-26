@@ -1,0 +1,21 @@
+program
+{
+	int i, cnt = 1, sum = 0;
+
+	write ("SUM OF NUMBERS");
+
+	read (i);
+	while (i<=0) 
+	{
+		write("Wrong input");
+		read (i);
+	}
+	
+	while (cnt <= i)
+	{
+		sum = sum + cnt;
+		write (sum);
+		cnt = cnt + 1;
+	}
+	write(" ", "Final sum:", sum);
+}

@@ -1,0 +1,2 @@
+- There was chosen the 1-st variant: unidirectional list.
+- The length of char* is restricted by the volume of the memory.

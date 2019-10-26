@@ -1,0 +1,19 @@
+program
+{
+	int i, cnt = 1;
+
+	write ("EVEN NUMBERS");
+
+	read (i);
+	while (i<=0) 
+	{
+		write("Wrong input");
+		read (i);
+	}
+	
+	while (cnt <= i)
+	{
+		if (cnt % 2 == 0) { write (cnt); }
+		cnt = cnt + 1;
+	}
+}

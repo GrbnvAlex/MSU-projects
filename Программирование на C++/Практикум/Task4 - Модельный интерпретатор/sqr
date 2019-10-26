@@ -1,0 +1,9 @@
+program
+{
+	int i;
+
+	write ("SQR");
+
+	read (i);
+	write(i * i, " = i * i");
+}
